@@ -1,0 +1,17 @@
+#spring:
+#  application:
+#    name:SpringBootReact
+server:
+  port: 9192
+spring:
+  application:
+    name: SpringBootReact
+  datasource:
+    username: root
+    password: password
+    url: jdbc:mysql://localhost:3306/studentdb?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
